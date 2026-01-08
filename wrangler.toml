@@ -1,0 +1,22 @@
+name = "supabase-authserver"
+compatibility_date = "2024-01-01"
+
+# Cloudflare Pages configuration
+pages_build_output_dir = "dist"
+
+# Environment variables
+# Cloudflare will prompt for these values during deployment
+[vars]
+VITE_SUPABASE_URL = ""
+VITE_SUPABASE_ANON_KEY = ""
+VITE_ENABLE_SIGNUP = "false"
+VITE_HOME_URL = ""
+VITE_ADMIN_CONSENT = "true"
+
+# Build configuration
+[build]
+command = "npm run build"
+
+# Deployment configuration
+[site]
+bucket = "./dist"

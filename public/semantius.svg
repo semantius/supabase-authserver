@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166 166">
+  <!-- Triangle with transparent fill instead of white -->
+  <polygon points="83 13 3 153 163 153" fill="none"/>
+  <polygon points="83 13 3 153 163 153" fill="none" stroke="#003366" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+  
+  <!-- Lines -->
+  <line x1="63" y1="48" x2="23" y2="118" stroke="white" stroke-width="6" stroke-linecap="butt"/>
+  <line x1="48" y1="153" x2="118" y2="153" stroke="white" stroke-width="6" stroke-linecap="butt"/>
+  <line x1="143" y1="118" x2="103" y2="48" stroke="white" stroke-width="6" stroke-linecap="butt"/>
+  
+  <!-- Circle -->
+  <circle cx="83" cy="106.33" r="34" stroke="rgb(0, 114, 229)" fill="rgb(134, 205, 255)" stroke-width="6"/>
+</svg>
