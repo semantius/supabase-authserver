@@ -92,9 +92,6 @@ Client applications can connect to this OAuth server using standard OpenID Conne
    
    Use the generated Client ID in your client applications to authenticate against this server.
 
-## Deploy to Cloudflare Pages
-
-[![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/semantius/supabase-authserver)
 
 ## Limitations
 
