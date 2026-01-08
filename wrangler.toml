@@ -4,14 +4,6 @@ compatibility_date = "2024-01-01"
 # Cloudflare Pages configuration
 pages_build_output_dir = "dist"
 
-# Environment variables
-# Cloudflare will prompt for these values during deployment
-[vars]
-xVITE_SUPABASE_URL = ""
-xVITE_SUPABASE_ANON_KEY = ""
-xVITE_ENABLE_SIGNUP = "false"
-xVITE_HOME_URL = ""
-xVITE_ADMIN_CONSENT = "true"
 
 # Build configuration
 [build]
