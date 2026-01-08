@@ -74,6 +74,7 @@ npm run build
 Deploy the `dist` directory to any static hosting. Remember to set your environment variables in your hosting platform.
 
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/semantius/supabase-authserver)
 
 ## Using with Client Apps
 
@@ -91,6 +92,11 @@ Client applications can connect to this OAuth server using standard OpenID Conne
    In Supabase dashboard: Authentication → OAuth Apps → Create a new OAuth app
    
    Use the generated Client ID in your client applications to authenticate against this server.
+
+
+
+
+
 
 
 ## Limitations
