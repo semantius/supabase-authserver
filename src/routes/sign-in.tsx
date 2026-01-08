@@ -6,7 +6,7 @@ export const Route = createRoute({
   getParentRoute: () => RootRoute,
   path: '/sign-in',
   component: SignInPage,
-  validateSearch: (search: Record<string, unknown>) => {
+  validateSearch: (search: Record<string, unknown>): { redirect?: string } => {
     return {
       redirect: (search.redirect as string) || undefined,
     }
