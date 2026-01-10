@@ -14,7 +14,7 @@ Ready to use OAuth authentication server that provides the missing UI for Supaba
 ## Prerequisites
 
 - Node.js 18+
-- Supabase account ([free tier available](https://supabase.com))
+- Supabase account
 
 ## Setup
 
