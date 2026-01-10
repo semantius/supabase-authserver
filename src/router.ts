@@ -6,6 +6,7 @@ import { Route as SignInRoute } from './routes/sign-in'
 import { Route as SignUpRoute } from './routes/sign-up'
 import { Route as ForgotPasswordRoute } from './routes/forgot-password'
 import { Route as ConsentRoute } from './routes/consent'
+import { oauthErrorRoute } from './routes/oauth/error'
 import { NotFoundPage } from './pages/not-found'
 
 const routeTree = RootRoute.addChildren([
@@ -15,6 +16,7 @@ const routeTree = RootRoute.addChildren([
   SignUpRoute,
   ForgotPasswordRoute,
   ConsentRoute,
+  oauthErrorRoute,
 ])
 
 export const router = createRouter({
