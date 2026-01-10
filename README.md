@@ -73,7 +73,7 @@ npm run build
 
 Deploy the `dist` directory to any static hosting. Remember to set your environment variables in your hosting platform.
 
-
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/semantius/supabase-authserver)   
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/semantius/supabase-authserver)
 
 ## Using with Client Apps
